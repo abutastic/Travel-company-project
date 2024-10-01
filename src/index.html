@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel company clone</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="flex flex-row justify-between p-3 shadow-xl">
+      <img class="w-[109px] h-[28px]" src="./assets/flyfiLogo.png" alt="" />
+      <div>
+        <i class="fa-solid fa-bars text-[24px]"></i>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <div class="bg-gradient-to-r from-teal-500 to-blue-500 p-5 text-white">
+        <h2 class="text-[20px] font-bold tracking-wider text-green-200">
+          WELCOME
+        </h2>
+        <h1 class="mt-4 text-[28px] font-bold tracking-wide mb-2 text-black">
+          All your travel information is at your fingertips.
+        </h1>
+        <p class="mt-4 text-[16px] tracking-wide font-normal text-black">
+          Elevate Your Travel Experience with FlyFi: Your All-in-One Travel
+          Companion. Streamline your journey and stay informed with real-time
+          flight updates and airfare alerts.
+        </p>
+        <p class="mt-4 text-[16px] tracking-wide font-normal text-black">
+          Navigate airport peak hours seamlessly – all within one app.
+        </p>
+        <div class="flex flex-row justify-between mt-4">
+          <img src="./assets/img-appstore.png" alt="" />
+          <img src="./assets/img-googleplay.png" alt="" />
+        </div>
+
+        <div class="flex justify-between mt-4">
+          <input
+            class="p-3 rounded-md text-black"
+            type="email"
+            placeholder="Enter your e-mail"
+          />
+          <button
+            class="font-semibold py-2 bg-green-400 px-4 rounded-md"
+            type="submit"
+          >
+            submit
+          </button>
+        </div>
+        <div>
+          <img src="./assets/bag.png" alt="" />
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div class="mt-8 p-5">
+        <h2 class="text-center text-[30px] tracking-wide font-bold leading-8">
+          FlyFi is your onboard travel buddy!
+        </h2>
+        <p class="text-center text-[16px] mt-4 w-full text-gray-500">
+          Discover how FlyFi caters to every travel requirement, becoming your
+          reliable travel partner.
+        </p>
+        <div class="mt-5 grid gap-6" id="cards">
+          <div class="flex flex-col items-center shadow-xl rounded-2xl p-3">
+            <i class="fa-solid fa-plane text-[30px] text-teal-500 p-5"></i>
+            <h2 class="text-[24px] font-bold mb-3">Flight Status</h2>
+            <p class="text-center text-[16px] text-gray-500 w-[90%] mb-3">
+              Keep track of your journey with our live flight status updates.
+              From departures to arrivals, we’ve got you covered every step of
+              the way.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center shadow-xl rounded-2xl p-3">
+            <i class="fa-solid fa-bell text-[30px] text-teal-500 p-5"></i>
+            <h2 class="text-[24px] font-bold mb-3">Airfare Alerts</h2>
+            <p class="text-center text-[16px] text-gray-500 w-[90%] mb-3">
+              Never miss a deal with our real-time airfare alerts. Stay ahead of
+              the curve and secure the best prices for your dream destinations.
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center shadow-xl rounded-2xl p-3">
+            <i class="fa-solid fa-wifi text-[30px] text-teal-500 p-5"></i>
+            <h2 class="text-[24px] font-bold mb-3">Connect to WiFi</h2>
+            <p class="text-center text-[16px] text-gray-500 w-[90%] mb-3">
+              Effortlessly connect to both flight and airport WiFi with our
+              comprehensive guide and auto-connect functionality.Experience
+              seamless connectivity with FlyFi.app
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
