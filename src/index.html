@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel company clone</title>
+    <link rel="shortcut icon" href="./assets/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="./output.css" />
     <link
       rel="stylesheet"
@@ -15,29 +16,31 @@
   </head>
   <body>
     <!-- Header -->
-    <nav class="flex flex-row justify-between p-3 shadow-xl">
+     <header class="sticky top-0">
+    <nav class="flex flex-row justify-between p-3 shadow-xl bg-teal-300">
       <img class="w-[109px] h-[28px]" src="./assets/flyfiLogo.png" alt="" />
       <div>
         <i class="fa-solid fa-bars text-[24px]"></i>
       </div>
     </nav>
+  </header>
 
     <!-- Main -->
     <main>
       <!-- Hero -->
-      <div class="bg-gradient-to-r from-teal-500 to-blue-500 p-5 text-white">
+      <div class="bg-gradient-to-r bg-teal-500 p-5 text-white">
         <h2 class="text-[20px] font-bold tracking-wider text-green-200">
           WELCOME
         </h2>
-        <h1 class="mt-4 text-[28px] font-bold tracking-wide mb-2 text-black">
+        <h1 class="mt-4 text-[28px] font-bold tracking-wide mb-2 gradient-text from-blue-500 to-purple-500">
           All your travel information is at your fingertips.
         </h1>
-        <p class="mt-4 text-[16px] tracking-wide font-normal text-black">
+        <p class="mt-4 text-[16px] tracking-wide font-normal text-gray-200">
           Elevate Your Travel Experience with FlyFi: Your All-in-One Travel
           Companion. Streamline your journey and stay informed with real-time
           flight updates and airfare alerts.
         </p>
-        <p class="mt-4 text-[16px] tracking-wide font-normal text-black">
+        <p class="mt-4 text-[16px] tracking-wide font-normal text-gray-200">
           Navigate airport peak hours seamlessly – all within one app.
         </p>
         <div class="flex flex-row justify-between mt-4">
@@ -52,7 +55,7 @@
             placeholder="Enter your e-mail"
           />
           <button
-            class="font-semibold py-2 bg-green-400 px-5 rounded-md"
+            class="font-semibold py-2 bg-green-400 px-5 rounded-md hover:bg-green-700"
             type="submit"
           >
             submit
@@ -444,7 +447,7 @@
         </p>
       </div>
     </main>
-    <footer class="p-5 bg-teal-700 text-white">
+    <footer class="p-5 bg-teal-500 text-white">
       <div class="">
       <img src="./assets/flyfi footer.png" alt="" />
       <p class="text-gray-100 text-[16px] mt-3">
@@ -463,26 +466,26 @@
     <div class="mt-5 mb-5">
       <h2 class="text-[22px] font-bold">Resources</h2>
       <ul class="flex flex-col gap-2 mt-3">
-        <li><a class="text-[16px] text-gray-400" href="">Blog</a></li>
-        <li><a class="text-[16px] text-gray-400" href="">Airport wifi</a></li>
-        <li><a class="text-[16px] text-gray-400" href="">Flight wifi</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">Blog</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">Airport wifi</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">Flight wifi</a></li2
       </ul>
     </div>
     <div class="mt-5 mb-5">
       <h2 class="text-[22px] font-bold">Product</h2>
       <ul class="flex flex-col gap-2 mt-3">
-        <li><a class="text-[16px] text-gray-400" href="">Features</a></li>
-        <li><a class="text-[16px] text-gray-400" href="">Travel</a></li>
-        <li><a class="text-[16px] text-gray-400" href="">Contact Us</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">Features</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">Travel</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">Contact Us</a></li>
       </ul>
     </div>
     <div class="mt-5 mb-5">
       <h2 class="text-[22px] font-bold">Policies</h2>
       <ul class="flex flex-col gap-2 mt-3">
-        <li><a class="text-[16px] text-gray-400" href="">About Us</a></li>
-        <li><a class="text-[16px] text-gray-400" href="">FAQ's</a></li>
-        <li><a class="text-[16px] text-gray-400" href="">Terms & Conditions</a></li>
-        <li><a class="text-[16px] text-gray-400" href="">Privacy Policy</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">About Us</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">FAQ's</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">Terms & Conditions</a></li>
+        <li><a class="text-[16px] text-gray-200" href="">Privacy Policy</a></li>
       </ul>
     </div>
     <div>
@@ -493,7 +496,7 @@
       </div>
     </div>
     <div class="text-center mt-6">
-      <p class="text-[20px] font-bold font-mono"> &copy; Copyright: Abbas WH</p>
+      <p class="text-[20px] font-bold font-sans"> &copy; Copyright: Abbas WH</p>
     </div>
     </footer>
   </body>
